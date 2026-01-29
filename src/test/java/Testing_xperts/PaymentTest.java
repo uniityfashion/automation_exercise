@@ -10,8 +10,8 @@ public class PaymentTest extends BaseTest {
     ConfigReader config;
 
     @Test
-    public void payment() {
+    public void payment() throws InterruptedException {
         Payment obj = new Payment(driver);
-        obj.payment(config.getProperty("Cname"), ConfigReader.getProperty("cNumber"),config.getProperty("cvv"), ConfigReader.getProperty("Emonth"),ConfigReader.getProperty("Eyear"));
+        obj.makePayment(config.getProperty("Cname"), ConfigReader.getProperty("cNumber"),config.getProperty("cvv"), ConfigReader.getProperty("Emonth"),ConfigReader.getProperty("Eyear"));
     }
 }
