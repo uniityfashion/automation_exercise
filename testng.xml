@@ -6,8 +6,7 @@
             <class name="Testing_xperts.SignInTest"/>
             <class name="Testing_xperts.HomepageTest"/>
             <class name="Testing_xperts.CheckOutTest"/>
-<!--            <class name="Testing_xperts.PaymentTest"/>-->
+            <class name="Testing_xperts.DeleteUserTest"/>
         </classes>
     </test>
-
 </suite>
