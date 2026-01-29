@@ -1,4 +1,4 @@
-package Testing_xperts.Pages.Utils;
+package Utils;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverFactory {
 
-    private static WebDriver driver;
+    public static WebDriver driver;
     public static WebDriver initDriver() {
         if (driver == null) {
             String browser = ConfigReader.getProperty("browser");

@@ -1,4 +1,4 @@
-package Testing_xperts.Pages.Utils;
+package Utils;
 
 import java.io.InputStream;
 import java.util.Properties;
