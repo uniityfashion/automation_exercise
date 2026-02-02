@@ -2,7 +2,6 @@ package Testing_xperts;
 
 import Testing_xperts.Pages.BaseTest.BaseTest;
 import Testing_xperts.Pages.Page.Checkout;
-import Testing_xperts.Pages.Page.Homepage;
 import Testing_xperts.Pages.Page.Payment;
 import Testing_xperts.Pages.Utils.ConfigReader;
 import org.testng.annotations.Test;

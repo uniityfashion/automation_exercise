@@ -119,7 +119,5 @@ public class SignInPage {
         driver.findElement(m_number).sendKeys(mNumber);
 
         driver.findElement(btn).click();
-
-
     }
 }
